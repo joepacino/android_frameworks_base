@@ -47,7 +47,10 @@
                     android:layout_alignParentTop="true"
                     android:letterSpacing="0.03"
                     android:textColor="?attr/wallpaperTextColor"
-                    style="@style/widget_big_thin" />
+                    android:singleLine="true"
+                    style="@style/widget_big_thin"
+                    android:format12Hour="@string/keyguard_widget_12_hours_format"
+                    android:format24Hour="@string/keyguard_widget_24_hours_format" />
                 <View
                     android:id="@+id/clock_separator"
                     android:layout_width="@dimen/widget_separator_width"
